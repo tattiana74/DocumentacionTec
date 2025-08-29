@@ -8,7 +8,8 @@ export default defineConfig({
       title: "SABS",
       logo: { src: "./src/assets/sabs.png" },
       social: {
-        github: "https://github.com/Andres-martinez1/Cellar_Iventory",
+        github: "https://github.com/Jeralber/SabsFront.git",
+        
       },
       sidebar: [
         // 📌 SECCIÓN: NAVEGACIÓN PRINCIPAL
@@ -20,10 +21,17 @@ export default defineConfig({
             {
               label: "Información General",
               items: [
-                { label: "Introducción", slug: "introduccion/introduccion" },
+                { label: "Construcción", slug: "introduccion/introduccion" },
                 { label: "Propósito", slug: "introduccion/proposito" },
                 { label: "Alcance", slug: "introduccion/alcance" },
                 { label: "Objetivos", slug: "introduccion/objetivo" },
+                {
+                  label: "Repositorios",
+                  items: [
+                    { label: "Frontend", link: "https://github.com/Jeralber/SabsFront" },
+                    { label: "Backend", link: "https://github.com/MaikelFabian/Sabs_Proyecto.git" },
+                  ],
+                },
               ],
             },
           ],
@@ -59,34 +67,7 @@ export default defineConfig({
           ],
         },
 
-        // 📌 SECCIÓN: GESTIÓN DE INVENTARIO
-        { label: "GESTIÓN DE INVENTARIO", slug: "" },
 
-        {
-          label: "Gestión de Inventario",
-          items: [
-            {
-              label: "Registro de nuevos productos",
-              slug: "ginventario/registro_de_nuevos_productos",
-            },
-            {
-              label: "Creación y configuración de bodegas",
-              slug: "ginventario/creación_y_configuración_de_bodegas",
-            },
-            {
-              label: "Actualización dinámica de inventario",
-              slug: "ginventario/actualización_dinámica_de_inventario",
-            },
-            {
-              label: "Registro de transacciones de inventario",
-              slug: "ginventario/registro_de_transacciones_de_inventario",
-            },
-            {
-              label: "Historial de movimientos de inventario",
-              slug: "ginventario/historial_de_movimientos_de_inventario",
-            },
-          ],
-        },
 
         // 📌 SECCIÓN: SERVICIOS REST
         { label: "SERVICIOS REST", slug: "" },

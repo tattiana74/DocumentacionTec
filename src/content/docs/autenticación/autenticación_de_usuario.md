@@ -13,16 +13,13 @@ Recuerde ingresar correctamente el usuario y la contraseña, respetando mayúscu
 
 ##### 1. Escriba su usuario y contraseña en la pantalla de inicio de sesión.
 
-![Pantalla de inicio de sesión](/public/inicio_sesion.png)
+![Pantalla de inicio de sesión](/public/login.png)
 
 ##### 2. Presione el botón "Iniciar sesión".
 
-![Botón de inicio de sesión](/public/presion_boton.png)
+![Botón de inicio de sesión](/public/botoninicio.png)
 
 ##### 3. Si las credenciales son correctas, accederá al panel principal del sistema.
 
-![Panel principal](/public/Inicio.png)
+![Panel principal](/public/dashboard.png)
 
-##### 4. Si olvidó la contraseña, utilice la opción de recuperación disponible.
-
-![Recuperación de contraseña](https://raw.githubusercontent.com/withastro/docs/main/public/default-og-image.png)
