@@ -2,77 +2,58 @@
 title: Generación de informes de desempeño
 description: Guía para crear y descargar reportes de inventario en el sistema.
 ---
-
-El sistema permite crear **cuatro tipos principales de informes** para apoyar la gestión y el análisis del inventario. Estos reportes son esenciales para la **toma de decisiones**, el control de productos y la trazabilidad.
-
-Todos los informes pueden descargarse en **PDF**, ya sea de manera **global** (consolidada) o **individual** según la necesidad del usuario.
+## Reportes
+El sistema permite crear **nueve tipos principales de informes** para apoyar la gestión y el análisis del inventario. Estos reportes son esenciales para la **toma de decisiones**, el control de productos y la trazabilidad.
+![Reportes](/reportes.png)
+## Descargas de reportes
+Todos los informes pueden descargarse en **PDF**, dependiendo de la necesidad del usuario.
+![Descargas de reportes](/notificacion.png)
 
 ---
 
 ## Tipos de informes disponibles
 
-### 1. Informe de Entradas
+### 1. Informe de areas
 
-Registra el historial de productos que ingresan al inventario, mostrando:
 
-- Fecha de ingreso
-- Cantidad
-- Proveedor
-- Bodega de destino
-- Producto
-
-Ideal para controlar abastecimientos y compras.
-
-![Visual de reporte de Entradas](https://raw.githubusercontent.com/withastro/docs/main/public/default-og-image.png)
+![Visual de reporte de areas](/areas.png)
 
 ---
 
-### 2. Informe de Salidas
+### 2. Informe de centros
 
-Muestra las salidas de productos del inventario, incluyendo:
+![Visual de reporte de centros](/centros.png)
+---
 
-- Fecha de salida
-- Cantidad
-- Responsable o destinatario
-- Motivo o tipo de solicitud
-- Bodega de origen
+### 3. Informe de fichas
 
-Útil para el seguimiento del consumo y la distribución.
 
-![Visual de reporte de Salidas](https://raw.githubusercontent.com/withastro/docs/main/public/default-og-image.png)
+![Visual de reporte de fichas](/fichas.png)
 
 ---
 
-### 3. Informe de Inventario
+### 4. Informe de materiales
 
-Refleja el estado actual del inventario:
+![Visual de reporte de materiales](/materiales.png)
+### 5.Informe de movimientos
 
-- Cantidad disponible por producto
-- Ubicación en bodegas
-- Productos agotados o próximos a agotarse
-- Clasificación por categorías
+![Visual de reporte de movimientos](/movimientos.png)
+### 6. Informe de municipios
 
-Perfecto para auditorías y control interno.
+![Visual de reporte de municipios](/municipios.png)
+### 7. Informe de personas 
 
-![Visual de reporte de Inventario](https://raw.githubusercontent.com/withastro/docs/main/public/default-og-image.png)
+![Visual de reporte de personas](/personas.png)
+### 8. informe de detalles de movimientos
 
----
+![Visual de reporte de detalles movimientos](/movimientos.png)
+### 9. informe  de sitios
 
-### 4. Informe de Trazabilidad
+![Visual de reporte de detalles sitios](/sitios.png)
 
-Permite seguir el recorrido de un producto desde su ingreso hasta su salida:
-
-- Movimientos asociados
-- Cambios de ubicación
-- Responsables
-- Estados del producto
-
-Especialmente útil para procesos que requieren control detallado del flujo de productos.
-
-![Visual de reporte de Trazabilidad](https://raw.githubusercontent.com/withastro/docs/main/public/default-og-image.png)
 
 ---
 
 :::tip
-Todos los informes pueden generarse en **PDF** para impresión, archivo o compartir. Es posible filtrar por periodo, producto o generar un informe global para una visión completa del sistema.
+Todos los informes pueden generarse en **PDF** para impresión, archivo o compartir. Es posible filtrar por creacion desde, creacion hasta, expiracion desde, expiracion hasta.
 :::

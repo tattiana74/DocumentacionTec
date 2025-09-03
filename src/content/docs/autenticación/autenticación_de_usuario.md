@@ -14,6 +14,15 @@ Recuerde ingresar correctamente el usuario y la contraseña, respetando mayúscu
 ##### 1. Escriba su usuario y contraseña en la pantalla de inicio de sesión.
 
 ![Pantalla de inicio de sesión](/public/login.png)
+## credenciales para inicio de sesion
+    identificacion: 'ADMIN001',
+    nombre: 'Administrador',
+    apellido: 'Sistema',
+    correo: 'admin@gmail.com',
+    contrasena: contrasenaEncriptada,
+    edad: 30,
+    rolId: rolAdmin.id, 
+    activo: true
 
 ##### 2. Presione el botón "Iniciar sesión".
 

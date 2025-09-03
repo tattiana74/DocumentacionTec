@@ -36,6 +36,44 @@ Es clave para el diseño de la base de datos y la implementación del backend.
 
 ![Diagrama de Clases](/diagrams/clases.png)
 
+
+## Diagramas de secuencia
+
+El diagrama de secuencia del sistema SABS describe el flujo de interacción entre los actores y los componentes principales.
+Este recurso permite visualizar el orden cronológico de los mensajes, mostrando cómo los diferentes elementos colaboran para cumplir un proceso específico dentro del sistema.
+
+
+## Seguridad
+
+![Seguridad](/diagrams/seguridad_secuencia.png)
+
+## Configuracion
+! [Configuracion](/diagrams/configuracion_secuencia.png)
+
+## Materiales 
+![Materiales](/diagrams/materiales_secuencia.png)
+
+## Movimientos 
+![Movimientos](/diagrams/movimientos_secuencia.png)
+
+## Bodega
+![Bodega](/diagrams/bodega_secuencia.png)
+
+## Centros
+![Centros](/diagrams/centros_secuencia.png)
+
+## Fichas
+![Fichas](/diagrams/fichas_secuencia.png)
+
+## Municipio
+![Municipio](/diagrams/municipio_secuencia.png)
+
+## Tipos de sitios
+![Tipos de sitios](/diagrams/tipos_de_sitios_secuencia.png)
+
+## Reportes
+![Reportes](/diagrams/reportes_con_graficas_secuencia.png)
+
 ---
 
 ## Diseño Lógico de Base de Datos
